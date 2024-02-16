@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Website</title>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+
+<header>
+ <div class="user">
+       <h2>Rimal Bikram</h2>
+    <p class="pTAG">male, age 30</p>
+ </div>
+</header>
+
+<nav class="navbar">
+  <div class="container">
+    <div class="logo">
+      <a href="#">Your Logo</a>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">OVERALL RESULT</a></li>
+      <li><a href="textdata.html">TEXT DATA</a></li>
+      <li><a href="#">IMAGES</a></li>
+      <li><a href="#">AUTH</a></li>
+    </ul>
+    <div class="login-register">
+      <button id="loginBtn">Login</button>
+      <button id="registerBtn">Register</button>
+    </div>
+  </div>
+</nav>
+
+<div class="login-form-container" id="loginFormContainer">
+  <div class="login-form">
+    <span class="close" onclick="closeLoginForm()">&times;</span>
+    <h2>Login</h2>
+    <form id="loginForm">
+      <input type="text" name="username" placeholder="Username" required>
+      <input type="password" name="password" placeholder="Password" required>
+      <button type="submit">Login</button>
+    </form>
+  </div>
+</div>
+
+<div class="user-details">
+   <p><span>Date of birth :</span> 04/04/1998</p><br>
+   <p><span>Nationality </span>: Nepal</p><br>
+   <p><span>Date of expiry </span>: 24/07/2024</p>
+   <h4>Data Martix</h4>
+</div>
+<div class="user-img">
+<a href="Untitled.jpg"><img src="Untitled.jpg" alt="User Photo"></a>
+</div>
+
+
+
+
+
+<!-- <footer>
+  <div class="container">
+    <div class="email-form">
+      <input type="email" id="emailInput" placeholder="Enter your email">
+      <button onclick="verifyEmail()">Verify</button>
+      <p id="verificationMessage"></p>
+    </div>
+  </div>
+</footer> -->
+
+<script src="index.js"></script>
+</body>
+</html>
